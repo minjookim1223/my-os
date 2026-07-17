@@ -26,9 +26,3 @@ npm start
 
 Normally you don't need to build locally: pushing to the `main` branch
 triggers the GitHub Actions workflow that builds and deploys the site.
-
-## Credits
-
-Forked from [64json/64json.github.io](https://github.com/64json/64json.github.io)
-by Jinseo Park (MIT licensed). Wallpaper photos are credited in the site's
-Attribution window.
