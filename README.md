@@ -1,4 +1,4 @@
-# [my-os](https://minjookim1223.github.io/my-os)
+# [jaymkim.com](https://jaymkim.com)
 
 Personal portfolio site of **Jay Kim** — a macOS-style desktop in the browser.
 

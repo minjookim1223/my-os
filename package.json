@@ -1,9 +1,9 @@
 {
-  "name": "minjookim1223.github.io",
+  "name": "jaymkim.com",
   "version": "1.0.0",
   "author": "Jay Kim",
   "license": "MIT",
-  "homepage": "https://minjookim1223.github.io/my-os",
+  "homepage": "https://jaymkim.com",
   "private": true,
   "scripts": {
     "start": "eval `node ./bin/inject-bio.js` && react-scripts start",
