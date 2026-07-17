@@ -9,7 +9,7 @@
     flex-direction: column;
 
     &.panel-preview {
-      min-width: 24rem;
+      min-width: 30rem;
       flex: 1;
       border-right: none;
 
@@ -46,9 +46,14 @@
 
             .value {
               flex-shrink: 1;
+              font-size: $font-size-small;
 
               p {
-                margin: 0;
+                margin: 0 0 .8em;
+
+                &:last-child {
+                  margin-bottom: 0;
+                }
               }
 
               a {
