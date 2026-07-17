@@ -1,0 +1,214 @@
+@function dpx($size) {
+  @return $size * .014in
+}
+
+$theme-primary: #433952;
+$theme-secondary: #F8F8F8;
+$theme-tertiary: #FFFFFF;
+$color-primary: #404040;
+$color-secondary: #808080;
+$font-medium: dpx(11);
+$font-small: dpx(9);
+
+.Resume {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #E9E9E9;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+  padding: dpx(24);
+  width: 100%;
+  min-height: 100vh;
+  user-select: text;
+  -webkit-font-smoothing: antialiased;
+
+  .paragraph {
+    line-height: normal;
+  }
+
+  .paper {
+    width: 8.5in;
+    height: 11.0in;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: 0 0 dpx(24) rgba(0, 0, 0, .16);
+    color: $color-primary;
+    overflow: hidden;
+
+    .header {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      background-color: $theme-primary;
+      color: $theme-secondary;
+
+      .name {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: dpx(20);
+        color: white;
+      }
+
+      .bar {
+        align-self: stretch;
+        display: flex;
+        background-color: rgba(white, .16);
+
+        .item {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: dpx(6);
+          font-size: $font-small;
+          color: $theme-secondary;
+
+          svg {
+            margin-right: dpx(2)
+          }
+        }
+      }
+    }
+
+    .body {
+      flex: 1;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: stretch;
+    }
+
+    .section {
+      font-size: $font-medium;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        margin: dpx(4) 0;
+
+        &:after {
+          content: '';
+          margin-left: dpx(16);
+          flex: 1;
+          height: 2px;
+          background-color: $theme-secondary;
+        }
+      }
+
+      .content {
+        &.wrap {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          .item {
+            width: 48%;
+
+            .row {
+              .name {
+                flex: 1;
+              }
+
+              .date {
+                flex: 0;
+              }
+            }
+          }
+        }
+
+        .item {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: dpx(4);
+
+          .row,
+          .bullet {
+            margin-bottom: dpx(4)
+          }
+
+          .row {
+            display: flex;
+
+            &.indented {
+              margin-left: dpx(12);
+            }
+
+            .spacer {
+              flex: 1;
+            }
+
+            > * {
+              &:after {
+                content: ' ';
+                white-space: pre;
+              }
+
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+
+            .secondary {
+              color: $color-secondary;
+            }
+          }
+
+          .bullet {
+            color: $color-secondary;
+            margin-left: dpx(12);
+
+            &:before {
+              position: absolute;
+              content: '-';
+              margin-left: dpx(-8);
+            }
+          }
+        }
+      }
+    }
+
+    .narrow {
+      background-color: $theme-secondary;
+      width: dpx(160);
+    }
+
+    .wide {
+      background-color: $theme-tertiary;
+      flex: 1;
+    }
+
+    .narrow,
+    .wide {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: dpx(12) dpx(18);
+    }
+  }
+}
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  .Resume {
+    padding: 0;
+    min-height: 100%;
+
+    .paper {
+      box-shadow: none;
+    }
+  }
+}

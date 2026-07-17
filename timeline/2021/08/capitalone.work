@@ -1,0 +1,7 @@
+{
+  "name": "Capital One",
+  "location": "McLean, VA",
+  "position": "Data Analyst",
+  "detail": "Built a full-stack KPI reporting app with React and Django REST Framework, engineered Apache Spark pipelines over 100M+ rows of transaction data, and automated AML transaction pattern analysis with Python.",
+  "end": "202308"
+}

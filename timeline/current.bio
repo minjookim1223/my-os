@@ -1,0 +1,24 @@
+{
+  "full_name": "Jay Kim",
+  "first_name": "Jay",
+  "last_name": "Kim",
+  "alias": "Jay",
+  "description": "Software Engineer building backend services and real-time data platforms, with a background spanning data engineering, machine learning, and cloud infrastructure.",
+  "avatar_url": "https://github.com/minjookim1223.png",
+  "theme_color": "#3D3D3D",
+  "location": "San Francisco, CA",
+  "email": "minjookim1223@gmail.com",
+  "links": {
+    "github": "https://github.com/minjookim1223",
+    "linkedin": "https://www.linkedin.com/in/minjookim1223",
+    "instagram": "https://www.instagram.com/minjookim1223/",
+    "resume": "https://minjookim1223.github.io/my-os/#/resume"
+  },
+  "skills": {
+    "Python": "Expert",
+    "SQL": "Advanced",
+    "Java": "Advanced",
+    "JavaScript/TypeScript": "Advanced",
+    "C++": "Intermediate"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Franklin Templeton (Western Asset Management)",
+  "location": "Pasadena, CA",
+  "position": "Python Developer Intern",
+  "detail": "Developed a portfolio data management system integrating internal REST APIs with Snowflake for 200+ clients, migrated Alteryx workflows to Python libraries, and created a back-testing engine for fixed-income strategies.",
+  "end": "202008"
+}

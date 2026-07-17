@@ -1,0 +1,7 @@
+{
+  "name": "Qcells",
+  "location": "San Francisco, CA",
+  "position": "Software Engineer",
+  "detail": "Developing backend services for real-time telemetry from battery storage and grid assets, building the Peak Demand API pipeline, and deploying containerized platform services on Azure with Docker and Kubernetes.",
+  "current": true
+}
