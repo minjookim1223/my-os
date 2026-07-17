@@ -6,13 +6,13 @@
   "homepage": "https://minjookim1223.github.io/my-os",
   "private": true,
   "scripts": {
-    "start": "eval `./bin/inject-bio.js` && react-scripts start",
-    "build": "eval `./bin/inject-bio.js` && react-scripts build",
-    "test": "eval `./bin/inject-bio.js` && react-scripts test",
-    "eject": "eval `./bin/inject-bio.js` && react-scripts eject",
-    "postbuild": "eval `./bin/inject-bio.js` && gulp",
+    "start": "eval `node ./bin/inject-bio.js` && react-scripts start",
+    "build": "eval `node ./bin/inject-bio.js` && react-scripts build",
+    "test": "eval `node ./bin/inject-bio.js` && react-scripts test",
+    "eject": "eval `node ./bin/inject-bio.js` && react-scripts eject",
+    "postbuild": "eval `node ./bin/inject-bio.js` && gulp",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
