@@ -1,7 +1,8 @@
 {
   "name": "Pacific Capital",
-  "location": "Newport Beach, CA",
   "position": "Quantitative Analytics Intern",
-  "detail": "Built reusable Python modules for investment operations, deployed an Oracle SQL database with ETL pipelines for 120+ clients, and implemented a Monte Carlo simulation model for financial planning.",
+  "team": "Portfolio Management",
+  "location": "Newport Beach, CA",
+  "detail": "- Designed reusable investment operations modules in Python that standardized Bloomberg feed parsing, computed market metrics, and automated recurring operations reporting\n- Architected and deployed an Oracle SQL database with ETL pipelines to consolidate financial data for 120+ clients from raw sources, automating data retrieval and eliminating manual data entry\n- Implemented a Python-based Monte Carlo simulation model that projected financial plan success probabilities for 120+ clients and supported personalized customer reporting",
   "end": "201908"
 }

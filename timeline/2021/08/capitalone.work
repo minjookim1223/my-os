@@ -1,7 +1,8 @@
 {
   "name": "Capital One",
+  "position": "Python Developer & Data Analyst",
+  "team": "Data Infrastructure, Analysis, and Engineering",
   "location": "McLean, VA",
-  "position": "Data Analyst",
-  "detail": "Built a full-stack KPI reporting app with React and Django REST Framework, engineered Apache Spark pipelines over 100M+ rows of transaction data, and automated AML transaction pattern analysis with Python.",
+  "detail": "- Built a full-stack application using React and Python/Django REST Framework that surfaced KPIs and statistical stability metrics across 20+ bank models, replacing recurring ad hoc analyst requests with standardized automated reporting\n- Engineered Apache Spark data pipelines that cleaned and transformed 100M+ rows of transaction data, reducing model execution time by 25% through targeted performance optimizations\n- Developed internal Python tools that automated transaction pattern analysis for digital asset monitoring workflows, accelerating AML alert reviews by 40%\n- Integrated the Holistic Risk Scoring Model into AML data pipelines and engineered predictive features from 3+ years of historical investigation outcomes, improving fraud alert escalation precision by 10%",
   "end": "202308"
 }

@@ -8,7 +8,11 @@ const exts = {
   edu: 'educations',
   proj: 'projects',
   work: 'workExperiences',
+  hobby: 'hobbies',
 };
+
+// entry types that shouldn't display a date
+const dateless = ['edu', 'hobby'];
 
 function formatDate(date) {
   return date.replace(/(\d{4})(\d{2})/g, (_, year, month) => {
@@ -85,7 +89,7 @@ module.exports = function () {
         loaded[type].push({
           key,
           name,
-          date,
+          ...(dateless.includes(ext) ? {} : { date }),
           image,
           ...rest,
         });

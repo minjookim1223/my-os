@@ -1,7 +1,8 @@
 {
   "name": "Qcells",
-  "location": "San Francisco, CA",
   "position": "Software Engineer",
-  "detail": "Developing backend services for real-time telemetry from battery storage and grid assets, building the Peak Demand API pipeline, and deploying containerized platform services on Azure with Docker and Kubernetes.",
+  "team": "Data & Real-Time Intelligence",
+  "location": "San Francisco, CA",
+  "detail": "- Developed backend services to ingest and expose real-time telemetry data from battery storage and grid assets, enabling monitoring and control across the platform\n- Designed and implemented Peak Demand API pipeline for battery, integrating data ingestion, time-series processing, PostgreSQL storage, and REST endpoints to surface peak load events for grid and battery management workflows\n- Built and deployed containerized platform services on Azure using Docker and Kubernetes, standardizing deployment for grid and battery management components\n- Implemented CI/CD pipelines with GitHub Actions and Azure Monitor/Application Insights observability for platform services, reducing deployment time and cutting incident detection time by 60%",
   "current": true
 }

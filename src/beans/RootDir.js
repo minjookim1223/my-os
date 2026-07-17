@@ -7,7 +7,7 @@ import {
   PaypalWindow,
   TerminalWindow,
 } from 'windows';
-import { bio, educations, projects, workExperiences } from 'data';
+import { bio, educations, hobbies, projects, workExperiences } from 'data';
 
 class RootDir extends SystemDir {
   constructor(children) {
@@ -68,6 +68,7 @@ class RootDir extends SystemDir {
             projects: new Dir(projects),
             work_experience: new Dir(workExperiences),
             education: new Dir(educations),
+            hobbies: new Dir(hobbies),
             terminal: new SymlinkFile(terminal),
             instagram: new LinkFile(bio.links.instagram),
             linkedin: new LinkFile(bio.links.linkedin),

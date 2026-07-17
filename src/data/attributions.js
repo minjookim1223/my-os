@@ -31,6 +31,10 @@ export default [{
   link: 'https://www.flaticon.com/free-icon/briefcase_522510',
   black: true,
 }, {
+  image: badgeMap.hobbies,
+  artist: 'Twemoji (CC-BY 4.0)',
+  link: 'https://github.com/twitter/twemoji',
+}, {
   image: badgeMap.education,
   artist: 'srip',
   link: 'https://www.flaticon.com/free-icon/mortarboard_1231149',
