@@ -1,36 +1,26 @@
 import * as donationMap from 'images/donations';
+import { paypal } from 'images/icons';
 
-// Replace each hosted_button_id with your own PayPal hosted button IDs:
-// PayPal > Pay & Get Paid > PayPal Buttons > Create "Donate" button, then copy
-// the hosted_button_id value from the generated form code.
+// Your PayPal.Me username (the part after paypal.me/).
+const PAYPAL_ME = 'minjookim1223';
+
 export default [{
-  name: 'Iced Americano Venti',
+  name: 'Iced Americano',
   image: donationMap.starbucks,
   price: 4.95,
-  hosted_button_id: 'REPLACE_WITH_YOUR_BUTTON_ID_1',
+  link: `https://paypal.me/${PAYPAL_ME}/4.95`,
 }, {
-  name: 'Chicken & Bacon Ranch Footlong',
-  image: donationMap.subway,
-  price: 10.99,
-  hosted_button_id: 'REPLACE_WITH_YOUR_BUTTON_ID_2',
+  name: 'In-N-Out Combo #1',
+  image: donationMap.innout,
+  price: 11.65,
+  link: `https://paypal.me/${PAYPAL_ME}/11.65`,
 }, {
-  name: 'Boneless Wings Medium',
-  image: donationMap.buffalo,
-  price: 16.79,
-  hosted_button_id: 'REPLACE_WITH_YOUR_BUTTON_ID_3',
+  name: 'Protein for a Week 😭',
+  image: donationMap.costco,
+  price: 50,
+  link: `https://paypal.me/${PAYPAL_ME}/50`,
 }, {
-  name: 'Roasted Salmon',
-  image: donationMap.anthonys,
-  price: 32.95,
-  hosted_button_id: 'REPLACE_WITH_YOUR_BUTTON_ID_4',
-}, {
-  name: 'Pavilion 21.5-inch Monitor',
-  image: donationMap.hp,
-  price: 119.99,
-  hosted_button_id: 'REPLACE_WITH_YOUR_BUTTON_ID_5',
-}, {
-  name: 'Round Trip from SFO to Cancun',
-  image: donationMap.spirit,
-  price: 289.22,
-  hosted_button_id: 'REPLACE_WITH_YOUR_BUTTON_ID_6',
+  name: 'Custom Amount',
+  image: paypal,
+  link: `https://paypal.me/${PAYPAL_ME}`,
 }];

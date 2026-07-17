@@ -32,15 +32,16 @@ function PaypalWindow(props) {
       <div className="donation-container">
         {
           donations.map(donation => (
-            <form key={donation.hosted_button_id} className="donation" action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick"/>
-              <input type="hidden" name="hosted_button_id" value={donation.hosted_button_id}/>
+            <a key={donation.name} className="donation" href={donation.link}
+               target="_blank" rel="noopener noreferrer">
               <Icon className="icon" iconUrl={donation.image}/>
               <div className="name">{donation.name}</div>
-              <div className="price">{donation.price}</div>
-              <button className="donate" type="submit"/>
-            </form>
+              {
+                donation.price !== undefined &&
+                <div className="price">{donation.price}</div>
+              }
+              <div className="donate"/>
+            </a>
           ))
         }
       </div>
