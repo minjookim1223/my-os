@@ -1,25 +1,25 @@
 {
-  "name": "undefined",
-  "short_name": "undefined",
-  "description": "undefined",
+  "name": "Jay Kim",
+  "short_name": "Jay Kim",
+  "description": "Software Engineer building backend services and real-time data platforms, with a background spanning data engineering, machine learning, and cloud infrastructure.",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "undefined",
-  "background_color": "undefined",
-  "author": "undefined",
+  "theme_color": "#3D3D3D",
+  "background_color": "#3D3D3D",
+  "author": "Jay Kim",
   "icons": [
     {
-      "src": "undefined?type=small",
+      "src": "https://github.com/minjookim1223.png?type=small",
       "sizes": "50x50",
       "type": "image/jpeg"
     },
     {
-      "src": "undefined?type=normal",
+      "src": "https://github.com/minjookim1223.png?type=normal",
       "sizes": "100x100",
       "type": "image/jpeg"
     },
     {
-      "src": "undefined?type=large",
+      "src": "https://github.com/minjookim1223.png?type=large",
       "sizes": "200x200",
       "type": "image/jpeg"
     }
