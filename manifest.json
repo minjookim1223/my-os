@@ -1,0 +1,27 @@
+{
+  "name": "undefined",
+  "short_name": "undefined",
+  "description": "undefined",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "undefined",
+  "background_color": "undefined",
+  "author": "undefined",
+  "icons": [
+    {
+      "src": "undefined?type=small",
+      "sizes": "50x50",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "undefined?type=normal",
+      "sizes": "100x100",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "undefined?type=large",
+      "sizes": "200x200",
+      "type": "image/jpeg"
+    }
+  ]
+}
