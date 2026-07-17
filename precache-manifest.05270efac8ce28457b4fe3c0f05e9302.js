@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "390992c5c27b8d31c590c7e262a81150",
+    "revision": "1c46e1c1325202a52e58efc1d0963959",
     "url": "/index.html"
   },
   {
-    "revision": "8f38d7367f682d95f296",
-    "url": "/static/css/main.521c6406.chunk.css"
+    "revision": "211c15b1350f3f0c7d38",
+    "url": "/static/css/main.0d7086c9.chunk.css"
   },
   {
-    "revision": "1d3a52127fe67bdd4513",
-    "url": "/static/js/2.ad66ff41.chunk.js"
+    "revision": "b4343b0a885ebda98db6",
+    "url": "/static/js/2.1fa80880.chunk.js"
   },
   {
-    "revision": "8f38d7367f682d95f296",
-    "url": "/static/js/main.8d273112.chunk.js"
+    "revision": "211c15b1350f3f0c7d38",
+    "url": "/static/js/main.cfeb8fd5.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -142,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b0644c967344fd671075af608a0ea177",
     "url": "/static/media/starbucks.b0644c96.svg"
+  },
+  {
+    "revision": "f4c067bc0665e734f79098e3c86b6d54",
+    "url": "/static/media/stealthstartup.f4c067bc.png"
   },
   {
     "revision": "afe83a955791a4f193c412039d903d11",
