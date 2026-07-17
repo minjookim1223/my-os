@@ -17,8 +17,8 @@ export default [{
 }, {
   name: 'Protein for a Week 😭',
   image: donationMap.costco,
-  price: 50,
-  link: `https://paypal.me/${PAYPAL_ME}/50`,
+  price: 49.99,
+  link: `https://paypal.me/${PAYPAL_ME}/49.99`,
 }, {
   name: 'Custom Amount',
   image: paypal,
