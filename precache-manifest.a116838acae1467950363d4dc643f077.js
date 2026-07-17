@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be0190a6f54832cef84d81377d60227f",
+    "revision": "ca8cf9b4e61adf015a0bc6bc69070b30",
     "url": "/index.html"
   },
   {
-    "revision": "24226a30de84ba13028b",
+    "revision": "34151556117c8a7adc05",
     "url": "/static/css/main.521c6406.chunk.css"
   },
   {
-    "revision": "4d377189088cde0ecab0",
-    "url": "/static/js/2.0e0d3fe9.chunk.js"
+    "revision": "1d3a52127fe67bdd4513",
+    "url": "/static/js/2.ad66ff41.chunk.js"
   },
   {
-    "revision": "24226a30de84ba13028b",
-    "url": "/static/js/main.52b09ece.chunk.js"
+    "revision": "34151556117c8a7adc05",
+    "url": "/static/js/main.f75b3dc3.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "22cbce778755ee1d34081c948ebe68f5",
     "url": "/static/media/attribution.22cbce77.png"
+  },
+  {
+    "revision": "614315578a718bd2d538e0ccb51c08f4",
+    "url": "/static/media/badminton.61431557.png"
   },
   {
     "revision": "85c4af4e87f23d10752bf7982f0100bf",
@@ -72,12 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github.58695e61.png"
   },
   {
+    "revision": "06b300d40615d296b1650cef5f7d8517",
+    "url": "/static/media/hobbies.06b300d4.png"
+  },
+  {
     "revision": "c986915c0d9e592bd371f9706740bbe0",
     "url": "/static/media/innout.c986915c.png"
   },
   {
     "revision": "719cc953eac195261e7c5b566ba75390",
     "url": "/static/media/instagram.719cc953.png"
+  },
+  {
+    "revision": "e3c135453826336c5bd5f011edb77ca2",
+    "url": "/static/media/kendo.e3c13545.png"
   },
   {
     "revision": "cb80b6aba46dd8ba94be8fc60119dec1",
@@ -140,8 +152,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/transparent.1c68cb14.png"
   },
   {
-    "revision": "ac7f160371c0d70875692069da97bee3",
-    "url": "/static/media/usc.ac7f1603.png"
+    "revision": "1d9c396c55778740725f731eb4f6470d",
+    "url": "/static/media/usc.1d9c396c.png"
+  },
+  {
+    "revision": "8efc172194f27c99a62a7ea0ff38fdc3",
+    "url": "/static/media/violin.8efc1721.png"
+  },
+  {
+    "revision": "17323d0be40ab8d4b65aa544b5af3413",
+    "url": "/static/media/weight_training.17323d0b.png"
   },
   {
     "revision": "273b03f9fe847e8e69c3f38b7aa03cc7",
