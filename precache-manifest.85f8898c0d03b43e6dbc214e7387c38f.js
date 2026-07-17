@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0386e48754e1d5d1b4cf5972d3609669",
+    "revision": "be0190a6f54832cef84d81377d60227f",
     "url": "/index.html"
   },
   {
-    "revision": "79767885c76209390241",
-    "url": "/static/css/main.74d479df.chunk.css"
+    "revision": "24226a30de84ba13028b",
+    "url": "/static/css/main.521c6406.chunk.css"
   },
   {
-    "revision": "dc4d4e64270d94e067ef",
-    "url": "/static/js/2.28045abe.chunk.js"
+    "revision": "4d377189088cde0ecab0",
+    "url": "/static/js/2.0e0d3fe9.chunk.js"
   },
   {
-    "revision": "79767885c76209390241",
-    "url": "/static/js/main.0cdae583.chunk.js"
+    "revision": "24226a30de84ba13028b",
+    "url": "/static/js/main.52b09ece.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
     "url": "/static/js/runtime-main.4d772f49.js"
-  },
-  {
-    "revision": "7f8d0ff6e3836bf975ea51b563baa70c",
-    "url": "/static/media/anthonys.7f8d0ff6.jpg"
   },
   {
     "revision": "2868cae67bf6d5f41f6500feee058b4a",
@@ -36,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/browser.85c4af4e.png"
   },
   {
-    "revision": "c795b68bff1b1332edb5203621420c4c",
-    "url": "/static/media/buffalo.c795b68b.png"
-  },
-  {
     "revision": "4da7e5c31b8077b4321c8b8ac3d57773",
     "url": "/static/media/capitalone.4da7e5c3.png"
   },
   {
     "revision": "737c0ceffa14868fd6729b7f8daf9f57",
     "url": "/static/media/chengdu__sichuan__china.737c0cef.jpg"
+  },
+  {
+    "revision": "5df44225f1ffca24696992b1a2e563e1",
+    "url": "/static/media/costco.5df44225.png"
   },
   {
     "revision": "09433c60d7606934848a19d47c864dd5",
@@ -76,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github.58695e61.png"
   },
   {
-    "revision": "b38cab81555e5ee823fb6fb1c2e7397a",
-    "url": "/static/media/hp.b38cab81.png"
+    "revision": "c986915c0d9e592bd371f9706740bbe0",
+    "url": "/static/media/innout.c986915c.png"
   },
   {
     "revision": "719cc953eac195261e7c5b566ba75390",
@@ -132,16 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/singapore__singapore.8d432235.jpg"
   },
   {
-    "revision": "265a6f7ca957186f537f7224885756de",
-    "url": "/static/media/spirit.265a6f7c.png"
-  },
-  {
     "revision": "b0644c967344fd671075af608a0ea177",
     "url": "/static/media/starbucks.b0644c96.svg"
-  },
-  {
-    "revision": "ab20d078a43b2a0757bf9a5c15b7a1fb",
-    "url": "/static/media/subway.ab20d078.png"
   },
   {
     "revision": "afe83a955791a4f193c412039d903d11",
