@@ -1,0 +1,7 @@
+{
+  "name": "Stealth Startup",
+  "position": "Software Engineer",
+  "location": "Los Angeles, CA",
+  "detail": "- Led a start-up focused on streamlining the higher education process for international students by developing innovative solutions and tools that simplify applications, transfers, and enrollment workflows\n- Engineered a robust full-stack system using DRF (Python) and React (JavaScript), implementing a scalable student portfolio management pipeline and optimizing operational efficiency while seamlessly integrating the system across platforms\n- Developed and optimized back-testing engine (Python) to forecast student acceptance probabilities at targeted colleges, utilizing historical data and advanced algorithms to provide actionable insights for strategic application planning\n- Designed and structured the initial database using PostgreSQL to ensure efficient data handling, scalability, and performance, while implementing encryption and security protocols to protect sensitive information and ensure regulatory compliance",
+  "end": "202502"
+}

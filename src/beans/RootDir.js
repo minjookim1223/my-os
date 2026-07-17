@@ -7,7 +7,7 @@ import {
   PaypalWindow,
   TerminalWindow,
 } from 'windows';
-import { bio, educations, hobbies, projects, workExperiences } from 'data';
+import { bio, educations, hobbies, workExperiences } from 'data';
 
 class RootDir extends SystemDir {
   constructor(children) {
@@ -65,7 +65,6 @@ class RootDir extends SystemDir {
             browser,
           }),
           desktop: new DesktopDir({
-            projects: new Dir(projects),
             work_experience: new Dir(workExperiences),
             education: new Dir(educations),
             hobbies: new Dir(hobbies),
