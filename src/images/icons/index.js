@@ -8,3 +8,4 @@ export { default as linkedin } from './linkedin.png';
 export { default as paypal } from './paypal.png';
 export { default as resume } from './resume.png';
 export { default as terminal } from './terminal.png';
+export { default as venmo } from './venmo.png';

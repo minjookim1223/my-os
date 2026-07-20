@@ -1,18 +1,6 @@
 @import "../../common/constants";
 
-.PaypalWindow {
-  .paypal-success {
-    & ~ .message {
-      &:before {
-        content: 'Thank you for your donation!';
-      }
-    }
-
-    & ~ .donation-container {
-      display: none;
-    }
-  }
-
+.VenmoWindow {
   .message {
     color: white;
     font-size: $font-size-large;
@@ -21,7 +9,7 @@
     text-align: center;
 
     &:before {
-      content: 'paypal.me/minjookim1223'
+      content: 'venmo.com/u/jaykim1223'
     }
   }
 
@@ -79,7 +67,7 @@
         border: none;
         border-radius: 1.5rem;
         background-color: #EBEBEB;
-        color: rgb(0, 156, 222);
+        color: #008CFF;
         font-size: $font-size-normal;
         display: flex;
         align-items: center;
@@ -98,14 +86,14 @@
         }
 
         &:before {
-          content: 'Donate';
+          content: 'Pay';
         }
       }
     }
   }
 }
 
-.mobile .PaypalWindow {
+.mobile .VenmoWindow {
   .donation-container {
     .donation {
       flex-direction: column;
@@ -124,9 +112,6 @@
       .price {
         margin-right: 0;
         margin-bottom: .5rem;
-      }
-
-      .donate {
       }
     }
   }

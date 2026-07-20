@@ -6,6 +6,7 @@ import {
   FinderWindow,
   PaypalWindow,
   TerminalWindow,
+  VenmoWindow,
 } from 'windows';
 import { bio, educations, hobbies, workExperiences } from 'data';
 
@@ -50,6 +51,7 @@ class RootDir extends SystemDir {
     const browser = new AppFile(BrowserWindow, { pinned: false });
     const finder = new AppFile(FinderWindow, { defaultUrl: '/finder/users/jay/desktop' });
     const paypal = new AppFile(PaypalWindow);
+    const venmo = new AppFile(VenmoWindow);
     const terminal = new AppFile(TerminalWindow);
 
     const wallpaperKeys = Object.keys(wallpaperMap);
@@ -61,6 +63,7 @@ class RootDir extends SystemDir {
             finder,
             terminal,
             paypal,
+            venmo,
             attribution,
             browser,
           }),
@@ -72,6 +75,7 @@ class RootDir extends SystemDir {
             instagram: new LinkFile(bio.links.instagram),
             linkedin: new LinkFile(bio.links.linkedin),
             paypal: new SymlinkFile(paypal),
+            venmo: new SymlinkFile(venmo),
             github: new LinkFile(bio.links.github),
             resume: new LinkFile(bio.links.resume),
             email: new LinkFile(`mailto:${bio.email}`),
