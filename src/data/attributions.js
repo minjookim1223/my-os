@@ -5,10 +5,6 @@ import forkme from 'images/forkme.png';
 import location from 'images/pinpoint.png';
 
 export default [{
-  image: iconMap.browser,
-  artist: 'GraphicLoads',
-  link: 'http://www.iconarchive.com/show/100-flat-icons-by-graphicloads/browser-icon.html',
-}, {
   image: iconMap.finder,
   artist: 'dtafalonso',
   link: 'http://www.iconarchive.com/show/yosemite-flat-icons-by-dtafalonso/Folder-icon.html',

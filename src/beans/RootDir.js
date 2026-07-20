@@ -2,7 +2,6 @@ import { AppFile, DesktopDir, Dir, LinkFile, SymlinkFile, SystemDir } from 'bean
 import * as wallpaperMap from 'images/wallpapers';
 import {
   AttributionWindow,
-  BrowserWindow,
   FinderWindow,
   PaypalWindow,
   TerminalWindow,
@@ -48,7 +47,6 @@ class RootDir extends SystemDir {
     }
 
     const attribution = new AppFile(AttributionWindow);
-    const browser = new AppFile(BrowserWindow, { pinned: false });
     const finder = new AppFile(FinderWindow, { defaultUrl: '/finder/users/jay/desktop' });
     const paypal = new AppFile(PaypalWindow);
     const venmo = new AppFile(VenmoWindow);
@@ -65,7 +63,6 @@ class RootDir extends SystemDir {
             paypal,
             venmo,
             attribution,
-            browser,
           }),
           desktop: new DesktopDir({
             work_experience: new Dir(workExperiences),
