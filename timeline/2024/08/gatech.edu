@@ -1,9 +1,9 @@
 {
   "name": "Georgia Institute of Technology",
-  "type": "Master of Science, Computer Science",
+  "degree": "Master of Science, Computer Science",
   "detail": "Specialization in Artificial Intelligence",
   "location": "Atlanta, GA",
-  "link": "https://www.gatech.edu/",
+  "link": "https://www.cc.gatech.edu/",
   "current": true,
   "end": "202612"
 }

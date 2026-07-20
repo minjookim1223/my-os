@@ -1,4 +1,3 @@
-export { default as attribution } from './attribution.png';
 export { default as email } from './email.png';
 export { default as finder } from './finder.png';
 export { default as github } from './github.png';
