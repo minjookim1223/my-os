@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51f557dc7e88af94c87836d5bcc7311b",
+    "revision": "8b04e46ef08c76f0aeb33842f1514508",
     "url": "/index.html"
   },
   {
-    "revision": "2de5d677e79950f16966",
-    "url": "/static/css/main.9b1a7442.chunk.css"
+    "revision": "decf601d6066ef82c186",
+    "url": "/static/css/main.294f2ffd.chunk.css"
   },
   {
-    "revision": "dc0b17a820cd3c5c728d",
-    "url": "/static/js/2.aeb9f8ef.chunk.js"
+    "revision": "eb8bdbc27baa908dcf5b",
+    "url": "/static/js/2.6a39b0e3.chunk.js"
   },
   {
-    "revision": "2de5d677e79950f16966",
-    "url": "/static/js/main.6703d7b9.chunk.js"
+    "revision": "decf601d6066ef82c186",
+    "url": "/static/js/main.803ba134.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "614315578a718bd2d538e0ccb51c08f4",
     "url": "/static/media/badminton.61431557.png"
-  },
-  {
-    "revision": "85c4af4e87f23d10752bf7982f0100bf",
-    "url": "/static/media/browser.85c4af4e.png"
   },
   {
     "revision": "4da7e5c31b8077b4321c8b8ac3d57773",
@@ -64,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/forkme.48c0303d.png"
   },
   {
-    "revision": "f1271c5748cc326123ed305af08c5d22",
-    "url": "/static/media/franklintempleton.f1271c57.jpg"
+    "revision": "c9b2d5e5622f3ba3900d63081328bbc3",
+    "url": "/static/media/franklintempleton.c9b2d5e5.png"
   },
   {
     "revision": "e5ba59897f5ad9462fb11ecb05ed7b3d",
