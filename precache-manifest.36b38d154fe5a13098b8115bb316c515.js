@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "132c94879a3bfb477d9dfe748c5a4c10",
+    "revision": "0ec87c2aa4bf21dc3924d60eae7f641b",
     "url": "/index.html"
   },
   {
-    "revision": "eafce9a127c71e76aecc",
+    "revision": "8b283c38dcda9a0cbd94",
     "url": "/static/css/main.44e65092.chunk.css"
   },
   {
-    "revision": "b4343b0a885ebda98db6",
-    "url": "/static/js/2.1fa80880.chunk.js"
+    "revision": "dc0b17a820cd3c5c728d",
+    "url": "/static/js/2.aeb9f8ef.chunk.js"
   },
   {
-    "revision": "eafce9a127c71e76aecc",
-    "url": "/static/js/main.4ef46323.chunk.js"
+    "revision": "8b283c38dcda9a0cbd94",
+    "url": "/static/js/main.9b27f316.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hobbies.06b300d4.png"
   },
   {
+    "revision": "71f898e7b54ae2b168b26895fd921618",
+    "url": "/static/media/ihs.71f898e7.png"
+  },
+  {
     "revision": "c986915c0d9e592bd371f9706740bbe0",
     "url": "/static/media/innout.c986915c.png"
   },
@@ -140,12 +144,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/singapore__singapore.8d432235.jpg"
   },
   {
+    "revision": "0156853df52a8b61882da831f80e437b",
+    "url": "/static/media/ski.0156853d.png"
+  },
+  {
     "revision": "b0644c967344fd671075af608a0ea177",
     "url": "/static/media/starbucks.b0644c96.svg"
   },
   {
     "revision": "f4c067bc0665e734f79098e3c86b6d54",
     "url": "/static/media/stealthstartup.f4c067bc.png"
+  },
+  {
+    "revision": "f3f6e7e97a280014fc2ba4d6ebfe8ed1",
+    "url": "/static/media/sweetgreen.f3f6e7e9.png"
   },
   {
     "revision": "afe83a955791a4f193c412039d903d11",
@@ -156,8 +168,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/transparent.1c68cb14.png"
   },
   {
-    "revision": "1d9c396c55778740725f731eb4f6470d",
-    "url": "/static/media/usc.1d9c396c.png"
+    "revision": "2b838c91c76a7d3175d56f8a5280ff30",
+    "url": "/static/media/usc.2b838c91.png"
   },
   {
     "revision": "8efc172194f27c99a62a7ea0ff38fdc3",
