@@ -135,20 +135,26 @@ function FinderWindow(props) {
               <div className="property-container">
                 {
                   Object.keys(child.content).map(propertyKey => {
-                    if (propertyKey === 'image' || propertyKey === 'icon') return null;
+                    if (propertyKey === 'image' || propertyKey === 'icon' || propertyKey === 'website') return null;
                     const value = child.content[propertyKey];
                     return (
                       <div key={propertyKey} className="property">
                         <div className="key">{namize(propertyKey)}</div>
                         <div className="value">
-                          <ReactMarkdown source={value} escapeHtml={false}
-                                         renderers={{
-                                           link: ({ href, children }) => (
-                                             <Link url={href}>
-                                               {children}
-                                             </Link>
-                                           ),
-                                         }}/>
+                          {
+                            propertyKey === 'name' && child.content.website ? (
+                              <Link url={child.content.website} external>{value}</Link>
+                            ) : (
+                              <ReactMarkdown source={value} escapeHtml={false}
+                                             renderers={{
+                                               link: ({ href, children }) => (
+                                                 <Link url={href}>
+                                                   {children}
+                                                 </Link>
+                                               ),
+                                             }}/>
+                            )
+                          }
                         </div>
                       </div>
                     );
