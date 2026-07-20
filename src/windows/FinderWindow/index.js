@@ -135,7 +135,7 @@ function FinderWindow(props) {
               <div className="property-container">
                 {
                   Object.keys(child.content).map(propertyKey => {
-                    if (propertyKey === 'image') return null;
+                    if (propertyKey === 'image' || propertyKey === 'icon') return null;
                     const value = child.content[propertyKey];
                     return (
                       <div key={propertyKey} className="property">

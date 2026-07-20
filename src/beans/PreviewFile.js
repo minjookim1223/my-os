@@ -11,7 +11,7 @@ class PreviewFile extends File {
   }
 
   get iconProps() {
-    return { iconUrl: this.content.image };
+    return { iconUrl: this.content.icon || this.content.image };
   }
 
   get searchables() {

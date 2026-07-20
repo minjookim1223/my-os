@@ -79,6 +79,11 @@ module.exports = function () {
         const imagePath = path.join(monthPath, imageFile);
         const image = loadImage(imagePath);
 
+        // optional separate icon (e.g. name.icon.png) used for the list/desktop icon
+        // while the plain name.png stays as the large preview image
+        const iconFile = imageFiles.find(file => tokenize(file).fileName === `${fileName}.icon`);
+        const icon = iconFile ? loadImage(path.join(monthPath, iconFile)) : undefined;
+
         const { name, current, end, ...rest } = JSON.parse(fileBody);
         const date = [
           start,
@@ -91,6 +96,7 @@ module.exports = function () {
           name,
           ...(dateless.includes(ext) ? {} : { date }),
           image,
+          ...(icon ? { icon } : {}),
           ...rest,
         });
       });
