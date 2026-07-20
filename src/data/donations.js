@@ -15,12 +15,12 @@ export default [{
   price: 11.65,
   link: `https://paypal.me/${PAYPAL_ME}/11.65`,
 }, {
-  name: 'Salad for a Week',
-  image: donationMap.sweetgreen,
+  name: 'Salad for a week',
+  image: donationMap.costco,
   price: 34.99,
   link: `https://paypal.me/${PAYPAL_ME}/34.99`,
 }, {
-  name: 'Protein for a Week 😭',
+  name: 'Protein for a week 😭',
   image: donationMap.costco,
   price: 49.99,
   link: `https://paypal.me/${PAYPAL_ME}/49.99`,
