@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8cb7f23d7606403117e48c1b52e44c39",
+    "revision": "f203c8f080866ad95516c756862ba949",
     "url": "/index.html"
   },
   {
-    "revision": "7f25d0bfa6bdeb210b39",
+    "revision": "14997535b08745fd04b4",
     "url": "/static/css/main.b14b5714.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f4b9762a.chunk.js"
   },
   {
-    "revision": "7f25d0bfa6bdeb210b39",
-    "url": "/static/js/main.69d03da8.chunk.js"
+    "revision": "14997535b08745fd04b4",
+    "url": "/static/js/main.2e2320b0.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -56,8 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/forkme.48c0303d.png"
   },
   {
+    "revision": "c9b2d5e5622f3ba3900d63081328bbc3",
+    "url": "/static/media/franklintempleton.c9b2d5e5.png"
+  },
+  {
     "revision": "7888d7c2c346a57d77fff2384f27151e",
-    "url": "/static/media/franklintempleton.7888d7c2.png"
+    "url": "/static/media/franklintempleton.icon.7888d7c2.png"
   },
   {
     "revision": "e5ba59897f5ad9462fb11ecb05ed7b3d",
