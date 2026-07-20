@@ -14,7 +14,7 @@ function PaypalWindow(props) {
 
   return (
     <Window className="PaypalWindow" noToolbar
-            defaultWidth={50 * 16} defaultHeight={30 * 16}
+            defaultWidth={54 * 16} defaultHeight={40 * 16}
             toolbarStyle={{
               backgroundImage: 'radial-gradient(circle at center, #009cde, #003087 125%)',
             }}
