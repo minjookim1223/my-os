@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.294f2ffd.chunk.css",
-    "main.js": "/static/js/main.803ba134.chunk.js",
-    "main.js.map": "/static/js/main.803ba134.chunk.js.map",
+    "main.css": "/static/css/main.b14b5714.chunk.css",
+    "main.js": "/static/js/main.69d03da8.chunk.js",
+    "main.js.map": "/static/js/main.69d03da8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d772f49.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d772f49.js.map",
-    "static/js/2.6a39b0e3.chunk.js": "/static/js/2.6a39b0e3.chunk.js",
-    "static/js/2.6a39b0e3.chunk.js.map": "/static/js/2.6a39b0e3.chunk.js.map",
+    "static/js/2.f4b9762a.chunk.js": "/static/js/2.f4b9762a.chunk.js",
+    "static/js/2.f4b9762a.chunk.js.map": "/static/js/2.f4b9762a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a33fb7c5f41754352273d33c63f3b042.js": "/precache-manifest.a33fb7c5f41754352273d33c63f3b042.js",
+    "precache-manifest.5ef8e24d638237c857500e1567720224.js": "/precache-manifest.5ef8e24d638237c857500e1567720224.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.294f2ffd.chunk.css.map": "/static/css/main.294f2ffd.chunk.css.map",
+    "static/css/main.b14b5714.chunk.css.map": "/static/css/main.b14b5714.chunk.css.map",
     "static/media/atlanta__georgia__united_states.jpg": "/static/media/atlanta__georgia__united_states.2868cae6.jpg",
-    "static/media/attribution.png": "/static/media/attribution.22cbce77.png",
     "static/media/timeline-loader.js!": "/static/media/weight_training.17323d0b.png",
     "static/media/chengdu__sichuan__china.jpg": "/static/media/chengdu__sichuan__china.737c0cef.jpg",
     "static/media/costco.png": "/static/media/costco.5df44225.png",
@@ -24,7 +23,7 @@
     "static/media/hobbies.png": "/static/media/hobbies.06b300d4.png",
     "static/media/innout.png": "/static/media/innout.c986915c.png",
     "static/media/instagram.png": "/static/media/instagram.719cc953.png",
-    "static/media/stylesheet.scss": "/static/media/transparent.1c68cb14.png",
+    "static/media/stylesheet.scss": "/static/media/pinpoint.12287d2c.png",
     "static/media/linkedin.png": "/static/media/linkedin.6c0743fe.png",
     "static/media/lyon__france.jpg": "/static/media/lyon__france.ce573cbb.jpg",
     "static/media/paypal.png": "/static/media/paypal.a176d62f.png",
@@ -41,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4d772f49.js",
-    "static/js/2.6a39b0e3.chunk.js",
-    "static/css/main.294f2ffd.chunk.css",
-    "static/js/main.803ba134.chunk.js"
+    "static/js/2.f4b9762a.chunk.js",
+    "static/css/main.b14b5714.chunk.css",
+    "static/js/main.69d03da8.chunk.js"
   ]
 }
