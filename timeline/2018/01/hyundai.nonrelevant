@@ -1,0 +1,9 @@
+{
+  "name": "Hyundai Motors",
+  "website": "https://www.hyundaiusa.com",
+  "position": "Data Analyst Intern",
+  "team": "Map Navigation Software",
+  "location": "Irvine, CA",
+  "detail": "- Designed a Python automation tool to validate monthly USB based navigation map updates, detect software defects, and generate prioritized quality reports for service engineers and management, reducing the defect rate by 20%\n- Analyzed distribution and recall performance data using SQL and built Tableau dashboards that reduced report preparation time by 50% while providing actionable insights into customer satisfaction and product quality trends\n- Built an Excel macro to automate the generation of buyer and seller schedules for navigation software releases, streamlining operational workflows and improving processing efficiency by 33%\n- Engineered a Python script to automate compensation calculations for customer service representatives, improving payroll accuracy and reducing payroll preparation time by 60%",
+  "end": "201805"
+}
