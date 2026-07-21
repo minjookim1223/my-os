@@ -1,11 +1,13 @@
 import React, { useContext, useEffect } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import { getAppKey } from 'common/utils';
+import { classes, getAppKey } from 'common/utils';
 import { FileSystemContext, ResponsiveContext } from 'contexts';
 import { Icon, Link } from 'components';
 import forkme from 'images/forkme.png';
 import * as wallpaperMap from 'images/wallpapers';
 import './stylesheet.scss';
+
+const CORNER_KEY = 'irrelevant_experience';
 
 function Desktop() {
   const mobile = useContext(ResponsiveContext);
@@ -69,7 +71,7 @@ function Desktop() {
       }
       <div className="app-container">
         {
-          desktopDir && desktopDir.children.map(child => (
+          desktopDir && desktopDir.children.filter(child => child.key !== CORNER_KEY).map(child => (
             <Link className="shortcut" url={child.url} key={child.key}>
               <Icon className="icon" {...child.iconProps}/>
               <div className="name">
@@ -79,6 +81,15 @@ function Desktop() {
           ))
         }
       </div>
+      {
+        desktopDir && desktopDir.getChild(CORNER_KEY) &&
+        <Link className={classes('shortcut', 'corner')} url={desktopDir.getChild(CORNER_KEY).url}>
+          <Icon className="icon" {...desktopDir.getChild(CORNER_KEY).iconProps}/>
+          <div className="name">
+            {desktopDir.getChild(CORNER_KEY).name}
+          </div>
+        </Link>
+      }
       <div className="window-container">
         {
           apps && apps.filter(app => app.opened).map(app => (

@@ -73,7 +73,7 @@ class RootDir extends SystemDir {
             github: new LinkFile(bio.links.github),
             resume: new LinkFile(bio.links.resume),
             email: new LinkFile(`mailto:${bio.email}`),
-            'non-relevant_experience': new Dir(nonrelevantExperiences),
+            irrelevant_experience: new Dir(nonrelevantExperiences),
           }, wallpaperKeys[Math.random() * wallpaperKeys.length | 0]),
         }),
       }),
