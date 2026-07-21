@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f72810f.chunk.css",
-    "main.js": "/static/js/main.6c771adc.chunk.js",
-    "main.js.map": "/static/js/main.6c771adc.chunk.js.map",
+    "main.css": "/static/css/main.903047a6.chunk.css",
+    "main.js": "/static/js/main.0a353e4b.chunk.js",
+    "main.js.map": "/static/js/main.0a353e4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d772f49.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d772f49.js.map",
     "static/js/2.f4b9762a.chunk.js": "/static/js/2.f4b9762a.chunk.js",
     "static/js/2.f4b9762a.chunk.js.map": "/static/js/2.f4b9762a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c65a8e31815bd62c95a4821167eaf9e4.js": "/precache-manifest.c65a8e31815bd62c95a4821167eaf9e4.js",
+    "precache-manifest.0196eb4ec9e82b9e693c3c413c14f3b3.js": "/precache-manifest.0196eb4ec9e82b9e693c3c413c14f3b3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9f72810f.chunk.css.map": "/static/css/main.9f72810f.chunk.css.map",
+    "static/css/main.903047a6.chunk.css.map": "/static/css/main.903047a6.chunk.css.map",
     "static/media/atlanta__georgia__united_states.jpg": "/static/media/atlanta__georgia__united_states.2868cae6.jpg",
     "static/media/timeline-loader.js!": "/static/media/weight_training.17323d0b.png",
     "static/media/chengdu__sichuan__china.jpg": "/static/media/chengdu__sichuan__china.737c0cef.jpg",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.4d772f49.js",
     "static/js/2.f4b9762a.chunk.js",
-    "static/css/main.9f72810f.chunk.css",
-    "static/js/main.6c771adc.chunk.js"
+    "static/css/main.903047a6.chunk.css",
+    "static/js/main.0a353e4b.chunk.js"
   ]
 }

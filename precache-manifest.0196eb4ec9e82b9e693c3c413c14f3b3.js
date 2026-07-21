@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36857ed6f0562fc3c12221609a89508c",
+    "revision": "4bfc4e68abe564520dd3efb8bc2368fa",
     "url": "/index.html"
   },
   {
-    "revision": "b1b9fe9f374c37b82d76",
-    "url": "/static/css/main.9f72810f.chunk.css"
+    "revision": "7c170c9202e354d90241",
+    "url": "/static/css/main.903047a6.chunk.css"
   },
   {
     "revision": "816f9c1944749129e40b",
     "url": "/static/js/2.f4b9762a.chunk.js"
   },
   {
-    "revision": "b1b9fe9f374c37b82d76",
-    "url": "/static/js/main.6c771adc.chunk.js"
+    "revision": "7c170c9202e354d90241",
+    "url": "/static/js/main.0a353e4b.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fa9b92a05eb170f9119c1cce6e4f0c6a",
     "url": "/static/media/hyundai.fa9b92a0.png"
+  },
+  {
+    "revision": "a2a3dad543883d860d8f8e43be9a4e87",
+    "url": "/static/media/hyundai.icon.a2a3dad5.png"
   },
   {
     "revision": "71f898e7b54ae2b168b26895fd921618",
