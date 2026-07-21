@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3df6e8a0b5cc15ba3fc70465e39dfb48",
+    "revision": "e018f3280a22916d011e9db51500cba0",
     "url": "/index.html"
   },
   {
-    "revision": "10f71589d4b2193097f6",
+    "revision": "7940e1a84c88e8d5fd96",
     "url": "/static/css/main.903047a6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f4b9762a.chunk.js"
   },
   {
-    "revision": "10f71589d4b2193097f6",
-    "url": "/static/js/main.9357f4d2.chunk.js"
+    "revision": "7940e1a84c88e8d5fd96",
+    "url": "/static/js/main.b3486323.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f70bb532694ce03df0db9b0e17abbe2",
     "url": "/static/media/gatech.3f70bb53.png"
+  },
+  {
+    "revision": "9d41191ad37c076ae156e19de38e6b8d",
+    "url": "/static/media/gatech.icon.9d41191a.png"
   },
   {
     "revision": "58695e617e5382939b42963a0d673eb3",
