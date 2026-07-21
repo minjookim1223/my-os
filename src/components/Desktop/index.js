@@ -71,18 +71,20 @@ function Desktop() {
       }
       <div className="app-container">
         {
-          desktopDir && desktopDir.children.filter(child => child.key !== CORNER_KEY).map(child => (
-            <Link className="shortcut" url={child.url} key={child.key}>
-              <Icon className="icon" {...child.iconProps}/>
-              <div className="name">
-                {child.name}
-              </div>
-            </Link>
-          ))
+          desktopDir && desktopDir.children
+            .filter(child => mobile || child.key !== CORNER_KEY)
+            .map(child => (
+              <Link className="shortcut" url={child.url} key={child.key}>
+                <Icon className="icon" {...child.iconProps}/>
+                <div className="name">
+                  {child.name}
+                </div>
+              </Link>
+            ))
         }
       </div>
       {
-        desktopDir && desktopDir.getChild(CORNER_KEY) &&
+        !mobile && desktopDir && desktopDir.getChild(CORNER_KEY) &&
         <Link className={classes('shortcut', 'corner')} url={desktopDir.getChild(CORNER_KEY).url}>
           <Icon className="icon" {...desktopDir.getChild(CORNER_KEY).iconProps}/>
           <div className="name">
