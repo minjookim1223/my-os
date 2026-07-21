@@ -9,6 +9,7 @@ const exts = {
   proj: 'projects',
   work: 'workExperiences',
   hobby: 'hobbies',
+  nonrelevant: 'nonrelevantExperiences',
 };
 
 // entry types that shouldn't display a date

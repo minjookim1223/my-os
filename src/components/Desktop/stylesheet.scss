@@ -74,6 +74,10 @@
       padding: 1rem;
       border-radius: .2rem;
 
+      &:last-child {
+        margin-left: auto;
+      }
+
       &.link-external {
         .name {
           position: relative;
