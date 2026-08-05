@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90c1b50adce2b108a072b42cee7046ef",
+    "revision": "8e6cd4da9d343975c95537568b31c122",
     "url": "/index.html"
   },
   {
-    "revision": "78fe9711c7557d8aaa06",
+    "revision": "83c5327ca6f27aff4eb1",
     "url": "/static/css/main.903047a6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f4b9762a.chunk.js"
   },
   {
-    "revision": "78fe9711c7557d8aaa06",
-    "url": "/static/js/main.20e43ef4.chunk.js"
+    "revision": "83c5327ca6f27aff4eb1",
+    "url": "/static/js/main.af346d61.chunk.js"
   },
   {
     "revision": "263f724df9fcfac89ea1",
@@ -24,8 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/atlanta__georgia__united_states.2868cae6.jpg"
   },
   {
-    "revision": "7250ae4719e0acc59bdbff58ceb99278",
-    "url": "/static/media/aws.7250ae47.png"
+    "revision": "42ab3f9ebd170068541a795717b46338",
+    "url": "/static/media/aws.42ab3f9e.jpg"
+  },
+  {
+    "revision": "e13968b3dd1d8ac0f2afe3114f592134",
+    "url": "/static/media/aws.icon.e13968b3.png"
   },
   {
     "revision": "614315578a718bd2d538e0ccb51c08f4",
