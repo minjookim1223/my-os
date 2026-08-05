@@ -5,5 +5,5 @@
   "team": "Data & Real-Time Intelligence",
   "location": "San Francisco, CA",
   "detail": "- Developed microservices for telemetry observations, forecasts, metrics, and other energy-management data, giving downstream engineering teams standardized access to battery, inverter, and grid data without requiring direct Kusto queries\n- Built an internal Python package that automated the delivery lifecycle for read APIs, including scaffolding, mock services, mapping, configuration, deployment, Kusto integration, and reusable testing, reducing development time by 50%\n- Developed a reusable CRUD service for object storage, standardizing object creation, retrieval, updates, and deletion while reducing duplicated storage logic across platform services\n- Automated build, testing, and deployment workflows with GitHub Actions and implemented Azure Monitor and Application Insights observability, reducing manual deployment effort and improving release reliability and incident detection",
-  "current": true
+  "end": "202609"
 }
