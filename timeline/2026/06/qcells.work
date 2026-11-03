@@ -3,7 +3,7 @@
   "website": "https://www.qcells.com",
   "position": "Software Engineer",
   "team": "Data & Real-Time Intelligence",
-  "location": "San Francisco, CA",
-  "detail": "- Developed microservices for telemetry observations, forecasts, metrics, and other energy-management data, giving downstream engineering teams standardized access to battery, inverter, and grid data without requiring direct Kusto queries\n- Built an internal Python package that automated the delivery lifecycle for read APIs, including scaffolding, mock services, mapping, configuration, deployment, Kusto integration, and reusable testing, reducing development time by 50%\n- Developed a reusable CRUD service for object storage, standardizing object creation, retrieval, updates, and deletion while reducing duplicated storage logic across platform services\n- Automated build, testing, and deployment workflows with GitHub Actions and implemented Azure Monitor and Application Insights observability, reducing manual deployment effort and improving release reliability and incident detection",
+  "location": "Santa Clara, CA",
+  "detail": "- Optimized telemetry API performance by redesigning the service data path for direct Kusto access, eliminating chained upstream API calls and tuning KQL query execution to cut latency from 1.1s to under 30ms\n- Owned end-to-end delivery of REST APIs powering the data center management system, driving requirements directly with the analytics team and designing response contracts and pagination for high-volume telemetry endpoints\n- Developed the firm's first reusable test framework for telemetry-to-Kusto data integrations, standardizing correctness checks across all services\n- Containerized and deployed services to Azure Kubernetes Service with Docker, automated CI/CD pipelines through GitHub Actions, and instrumented services with Azure Monitor and Application Insights, reducing incident detection time by 60%",
   "end": "202609"
 }

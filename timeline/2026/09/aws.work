@@ -2,7 +2,8 @@
   "name": "Amazon Web Services (AWS)",
   "website": "https://aws.amazon.com",
   "position": "Software Engineer",
-  "team": "EC2",
+  "team": "EC2 Operating Systems",
   "location": "Bellevue, WA",
+  "detail": "- Built a CIS security scanning integration for EC2 Image Builder, enabling customers to automatically evaluate machine images against CIS benchmarks as part of their image creation pipelines\n- Designed an asynchronous backend workflow using AWS Lambda, Step Functions, SQS, and SNS to orchestrate image scanning jobs, coordinate downstream services, and reliably process scan results across distributed workflows\n- Integrated EC2 Image Builder with AWS Inspector and internal AWS services through REST APIs, implementing request validation, failure handling, retries, and status propagation for customer-initiated CIS scans\n- Developed DynamoDB backed persistence for scan metadata and workflow state, enabling services to track scan execution, retrieve results, and maintain consistency across asynchronous processing stages",
   "current": true
 }
