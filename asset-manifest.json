@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.903047a6.chunk.css",
-    "main.js": "/static/js/main.ff5d49d7.chunk.js",
-    "main.js.map": "/static/js/main.ff5d49d7.chunk.js.map",
+    "main.css": "/static/css/main.5cb82a0c.chunk.css",
+    "main.js": "/static/js/main.873370ce.chunk.js",
+    "main.js.map": "/static/js/main.873370ce.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d772f49.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d772f49.js.map",
-    "static/js/2.f4b9762a.chunk.js": "/static/js/2.f4b9762a.chunk.js",
-    "static/js/2.f4b9762a.chunk.js.map": "/static/js/2.f4b9762a.chunk.js.map",
+    "static/js/2.53ab640f.chunk.js": "/static/js/2.53ab640f.chunk.js",
+    "static/js/2.53ab640f.chunk.js.map": "/static/js/2.53ab640f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.93851a9930766eaccce81ddbdb5be190.js": "/precache-manifest.93851a9930766eaccce81ddbdb5be190.js",
+    "precache-manifest.73ef18f8ed06e116d738f53db4d6a20f.js": "/precache-manifest.73ef18f8ed06e116d738f53db4d6a20f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.903047a6.chunk.css.map": "/static/css/main.903047a6.chunk.css.map",
+    "static/css/main.5cb82a0c.chunk.css.map": "/static/css/main.5cb82a0c.chunk.css.map",
     "static/media/atlanta__georgia__united_states.jpg": "/static/media/atlanta__georgia__united_states.2868cae6.jpg",
     "static/media/timeline-loader.js!": "/static/media/weight_training.17323d0b.png",
     "static/media/chengdu__sichuan__china.jpg": "/static/media/chengdu__sichuan__china.737c0cef.jpg",
@@ -18,7 +18,6 @@
     "static/media/education.png": "/static/media/education.09433c60.png",
     "static/media/email.png": "/static/media/email.79f3cc03.png",
     "static/media/finder.png": "/static/media/finder.c696b25a.png",
-    "static/media/forkme.png": "/static/media/forkme.48c0303d.png",
     "static/media/github.png": "/static/media/github.58695e61.png",
     "static/media/hobbies.png": "/static/media/hobbies.06b300d4.png",
     "static/media/innout.png": "/static/media/innout.c986915c.png",
@@ -40,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4d772f49.js",
-    "static/js/2.f4b9762a.chunk.js",
-    "static/css/main.903047a6.chunk.css",
-    "static/js/main.ff5d49d7.chunk.js"
+    "static/js/2.53ab640f.chunk.js",
+    "static/css/main.5cb82a0c.chunk.css",
+    "static/js/main.873370ce.chunk.js"
   ]
 }
