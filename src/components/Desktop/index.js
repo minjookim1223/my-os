@@ -3,7 +3,6 @@ import { useHistory, useLocation } from 'react-router-dom';
 import { classes, getAppKey } from 'common/utils';
 import { FileSystemContext, ResponsiveContext } from 'contexts';
 import { Icon, Link } from 'components';
-import forkme from 'images/forkme.png';
 import * as wallpaperMap from 'images/wallpapers';
 import './stylesheet.scss';
 
@@ -62,12 +61,6 @@ function Desktop() {
           <div className="pinpoint"/>
           {desktopDir.wallpaperKey.replace(/__/g, ',_').split('_').map(v => v.charAt(0).toUpperCase() + v.slice(1)).join(' ')}
         </div>
-      }
-      {
-        !mobile &&
-        <Link className="forkme" url="https://github.com/minjookim1223/my-os">
-          <img src={forkme}/>
-        </Link>
       }
       <div className="app-container">
         {
